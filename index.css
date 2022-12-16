@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(116, 243, 243);    
+}
+
+
+
+.container {
+    background-color: white;
+    text-align: center;
+    max-width: 30%;
+    min-width: 30%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 15px 12px rgb(150, 148, 148);;
+    min-width: 300px
+}
+
+
+.players {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    
+}
+
+.dice {
+    background-color: pink;
+    padding: 40px 50px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.active {
+    box-shadow: 0px 0px 15px 12px rgb(150, 148, 148);
+}
+
+button {
+    background-color: rgb(240, 137, 154);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#resetBtn {
+    display: none;
+    
+}
